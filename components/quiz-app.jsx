@@ -25,16 +25,142 @@ import {
 import { cn } from "@/lib/utils";
 
 // Sample quiz data - in a real app, this would come from an API or database
-const quizData = [
-  {
-    id: 1,
-    question: "What is the capital of France?",
-    options: ["London", "Berlin", "Paris", "Madrid"],
-    correctAnswer: "Paris",
-  }
-];
+// const quizData = [
+//   {
+//     id: 1,
+//     question: "IoT stands for ____________.",
+//     options: [
+//       "Internet of Tasks",
+//       "Internet of Tuples",
+//       "Internet of Things",
+//       "None of these",
+//     ],
+//     correctAnswer: "Internet of Things",
+//   },
+//   {
+//     id: 2,
+//     question:
+//       "Which of the following technologies have unified and has resulted in the evolution of IoT?",
+//     options: [
+//       "High-power embedded systems",
+//       "Super Computing",
+//       "Engine Technology",
+//       "None of these",
+//     ],
+//     correctAnswer: "None of these",
+//   },
+//   {
+//     id: 3,
+//     question: "Which of the following are the enablers of IoT?",
+//     options: ["RFID", "Nanotechnology", "Sensors", "All of these"],
+//     correctAnswer: "All of these",
+//   },
+//   {
+//     id: 4,
+//     question: "Which of the following is NOT a function of an IoT LAN?",
+//     options: [
+//       "Long range communication, global",
+//       "World wide connections",
+//       "Both (a) and (b)",
+//       "Neither (a) Nor (b)",
+//     ],
+//     correctAnswer: "Both (a) and (b)",
+//   },
+//   {
+//     id: 5,
+//     question:
+//       "The integration of existing devices, smart devices, and constrained nodes in a singular framework is one of the reasons for the address crunch in IoT. True or False?",
+//     options: ["True", "False"],
+//     correctAnswer: "True",
+//   },
+//   {
+//     id: 6,
+//     question:
+//       "In Multi-homing, a node/network is connected to a single network for improved reliability. True or False?",
+//     options: ["True", "False"],
+//     correctAnswer: "False",
+//   },
+//   {
+//     id: 7,
+//     question:
+//       "Which of the following is/are the approach/approaches for multi-homing?",
+//     options: [
+//       "Proxy-based approach",
+//       "Gateway-based approach",
+//       "Both (a) and (b)",
+//       "None of these",
+//     ],
+//     correctAnswer: "Both (a) and (b)",
+//   },
+//   {
+//     id: 8,
+//     question: "IPv6 uses ____________ notation for its representation.",
+//     options: ["Hexadecimal", "Binary", "Decimal", "None of these"],
+//     correctAnswer: "Hexadecimal",
+//   },
+//   {
+//     id: 9,
+//     question:
+//       "The parameters sensed by a sensor may be sent to the cloud for further processing. True or False?",
+//     options: ["False", "True"],
+//     correctAnswer: "True",
+//   },
+//   {
+//     id: 10,
+//     question:
+//       "The IPv6 notation uses ___________________ number of bits to represent an address.",
+//     options: ["64", "128", "Both (a) and (b)", "Neither (a) nor (b)"],
+//     correctAnswer: "128",
+//   },
+//   {
+//     id: 11,
+//     question: "A sensor is -",
+//     options: [
+//       "Only sensitive to the measured property",
+//       "Insensitive to any other property than what the sensor is made to sense",
+//       "Both (a) and (b)",
+//       "None of these",
+//     ],
+//     correctAnswer: "Both (a) and (b)",
+//   },
+//   {
+//     id: 12,
+//     question: "We classify sensors based on -",
+//     options: ["Output", "Data type", "Both (a) and (b)", "None of these"],
+//     correctAnswer: "None of these",
+//   },
+//   {
+//     id: 13,
+//     question: "Which of the following is a correct statement?",
+//     options: [
+//       "Controlling AC loads using low DC signals",
+//       "Relays are electromechanical",
+//       "Relays are actuators",
+//       "All of these",
+//     ],
+//     correctAnswer: "All of these",
+//   },
+//   {
+//     id: 14,
+//     question:
+//       "Based on the output, sensors are classified as _______________________",
+//     options: ["Analog", "Digital", "Both (a) and (b)", "Neither (a) nor (b)"],
+//     correctAnswer: "Both (a) and (b)",
+//   },
+//   {
+//     id: 15,
+//     question: "Soft actuators are -",
+//     options: [
+//       "Polymer-based",
+//       "Mechanical",
+//       "Electromechanical",
+//       "None of these",
+//     ],
+//     correctAnswer: "Polymer-based",
+//   },
+// ];
 
-export default function QuizApp() {
+export default function QuizApp({quizData=[]}) {
   const [quizState, setQuizState] = useState("start");
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -184,7 +310,7 @@ export default function QuizApp() {
           </div>
           <Progress value={progress} className="h-2 bg-gray-800" />
           <CardTitle className="mt-4 text-xl text-white">
-            {question.question}
+            {question?.question}
           </CardTitle>
         </CardHeader>
         <CardContent className="my-4">
@@ -193,7 +319,7 @@ export default function QuizApp() {
             className="space-y-3"
             onValueChange={handleAnswerSelect}
           >
-            {question.options.map((option) => {
+            {question?.options.map((option) => {
               const isSelected = selectedAnswer === option;
               const isCorrect =
                 isAnswerSubmitted && option === question.correctAnswer;
