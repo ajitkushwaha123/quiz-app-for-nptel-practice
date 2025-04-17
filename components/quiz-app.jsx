@@ -160,7 +160,7 @@ import { cn } from "@/lib/utils";
 //   },
 // ];
 
-export default function QuizApp({quizData=[]}) {
+export default function QuizApp({ quizData = [] }) {
   const [quizState, setQuizState] = useState("start");
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -377,6 +377,8 @@ export default function QuizApp({quizData=[]}) {
             })}
           </RadioGroup>
         </CardContent>
+
+        {/* <p> {question?.explanation} </p> */}
 
         <CardFooter className="flex mt-5 justify-between items-center">
           {!isAnswerSubmitted ? (
