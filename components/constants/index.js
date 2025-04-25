@@ -730,7 +730,7 @@ export const data = [
   },
 
   {
-    quizId: "quiz6",
+    id: "quiz6",
     title: "Assignment-Week 6",
     questions: [
       {
@@ -916,7 +916,7 @@ export const data = [
   },
 
   {
-    quizId: "quiz7",
+    id: "quiz7",
     title: "Assignment-Week 7",
     questions: [
       {
@@ -1110,7 +1110,7 @@ export const data = [
   },
 
   {
-    quizId: "quiz8",
+    id: "quiz8",
     title: "Assignment-Week 8",
     questions: [
       {
@@ -1287,7 +1287,7 @@ export const data = [
   },
 
   {
-    quizId: "quiz9",
+    id: "quiz9",
     title: "Assignment-Week 9",
     questions: [
       {
@@ -1454,7 +1454,7 @@ export const data = [
   },
 
   {
-    quizId: "quiz10",
+    id: "quiz10",
     title: "Assignment-Week 10",
     questions: [
       {
@@ -1637,7 +1637,7 @@ export const data = [
   },
 
   {
-    quizId: "quiz11",
+    id: "quiz11",
     title: "Assignment-Week 11",
     questions: [
       {
@@ -1820,7 +1820,7 @@ export const data = [
   },
 
   {
-    quizId: "quiz12",
+    id: "quiz12",
     title: "Assignment-Week 12",
     questions: [
       {

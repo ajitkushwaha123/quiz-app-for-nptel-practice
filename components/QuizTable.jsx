@@ -39,7 +39,7 @@ const QuizTable = () => {
                 key={quiz.id}
                 className="border-t border-gray-700 hover:bg-gray-800 transition"
               >
-                <td className="py-3 px-4">{quiz.title}</td>
+                <td className="py-3 px-4">{quiz.title} </td>
                 <td className="py-3 px-4">
                   <Link
                     href={`/quiz/${quiz?.id}`}
