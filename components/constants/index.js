@@ -549,7 +549,7 @@ export const data = [
     questions: [
       {
         id: "q1",
-        questions:
+        question:
           "WirelessHART is the latest release of Highway Addressable Remote Transducer protocol.",
         options: ["True", "False"],
         correctAnswer: "True",
@@ -557,14 +557,14 @@ export const data = [
       },
       {
         id: "q2",
-        questions: "Wired HART has a network layer.",
+        question: "Wired HART has a network layer.",
         options: ["True", "False"],
         correctAnswer: "False",
         explanation: "Wired HART does not include a network layer.",
       },
       {
         id: "q3",
-        questions:
+        question:
           "WirelessHART physical layer is derived from 802.15.2 protocol.",
         options: ["True", "False"],
         correctAnswer: "False",
@@ -572,14 +572,14 @@ export const data = [
       },
       {
         id: "q4",
-        questions: "WirelessHART operates only in __________ GHz ISM band.",
+        question: "WirelessHART operates only in __________ GHz ISM band.",
         options: ["3.7", "4.8", "4.9", "2.4"],
         correctAnswer: "2.4",
         explanation: "It operates in 2.4 GHz ISM band.",
       },
       {
         id: "q5",
-        questions:
+        question:
           "HART standard was developed from __________ smart field devices.",
         options: ["amplified", "diminished", "isolated", "networked"],
         correctAnswer: "networked",
@@ -587,7 +587,7 @@ export const data = [
       },
       {
         id: "q6",
-        questions:
+        question:
           "Main difference between wired and unwired versions is in the physical, data link, and ______ layers.",
         options: ["Data link", "Network", "Transport", "None of these"],
         correctAnswer: "Network",
@@ -595,7 +595,7 @@ export const data = [
       },
       {
         id: "q7",
-        questions:
+        question:
           "Collision free and deterministic communication is achieved in HART’s data link layer.",
         options: ["True", "False"],
         correctAnswer: "True",
@@ -603,7 +603,7 @@ export const data = [
       },
       {
         id: "q8",
-        questions: "Channel hopping is incorporated in which layer of HART?",
+        question: "Channel hopping is incorporated in which layer of HART?",
         options: [
           "Data link layer",
           "Physical layer",
@@ -615,7 +615,7 @@ export const data = [
       },
       {
         id: "q9",
-        questions:
+        question:
           "The HART application layer is responsible for extracting commands from a message and generating responses.",
         options: ["True", "False"],
         correctAnswer: "True",
@@ -623,7 +623,7 @@ export const data = [
       },
       {
         id: "q10",
-        questions:
+        question:
           "NFC is designed for use by devices within ________________ to each other.",
         options: [
           "Anywhere on the globe",
@@ -636,7 +636,7 @@ export const data = [
       },
       {
         id: "q11",
-        questions:
+        question:
           "Passive NFC devices ___________ information which is _____________ by other devices.",
         options: [
           "contain, read",
@@ -649,21 +649,21 @@ export const data = [
       },
       {
         id: "q12",
-        questions: "NFC devices work on the principle of magnetic induction.",
+        question: "NFC devices work on the principle of magnetic induction.",
         options: ["True", "False"],
         correctAnswer: "True",
         explanation: "They operate using magnetic field coupling.",
       },
       {
         id: "q13",
-        questions: "Bluetooth technology is based on _________________.",
+        question: "Bluetooth technology is based on _________________.",
         options: ["HART", "ZigBee", "All of these", "None of these"],
         correctAnswer: "None of these",
         explanation: "Bluetooth is based on ad-hoc piconets.",
       },
       {
         id: "q14",
-        questions:
+        question:
           "The Link Manager Protocol in Bluetooth manages only establishment and authentication.",
         options: ["True", "False"],
         correctAnswer: "False",
@@ -671,7 +671,7 @@ export const data = [
       },
       {
         id: "q15",
-        questions: "Zigbee commonly uses __________ data rate.",
+        question: "Zigbee commonly uses __________ data rate.",
         options: ["260 bps", "260 kbps", "260 Mbps", "None of these"],
         correctAnswer: "None of these",
         explanation: "It uses 250 kbps.",
@@ -797,7 +797,7 @@ export const data = [
   {
     id: "quiz4",
     title: "Assignment-Week 4",
-    questions: [
+    question: [
       {
         id: "q1",
         question:
