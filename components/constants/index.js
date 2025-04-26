@@ -28,7 +28,7 @@ export const data = [
       },
       {
         id: 3,
-        question: "Which of the following are the enables of IoT?",
+        question: "Which of the following are the enablers of IoT?",
         options: ["RFID", "Nanotechnology", "Sensors", "All of these"],
         correctAnswer: "All of these",
       },
@@ -53,7 +53,7 @@ export const data = [
       {
         id: 6,
         question:
-          'State True or False. Statement: "In Multi-homing, a node/network is connected to a single network for improved reliability.',
+          "State True or False. Statement: \"In Multi-homing, a node/network is connected to a single network for improved reliability.'",
         options: ["True", "False"],
         correctAnswer: "False",
       },
@@ -139,6 +139,146 @@ export const data = [
         ],
         correctAnswer: "Polymer-based",
       },
+      {
+        id: 1,
+        question: "What is the full form of IoT?",
+        options: [
+          "Internet of Tasks",
+          "Internet of Things",
+          "Internet of Tasks",
+          "None of these",
+        ],
+        correctAnswer: "Internet of Things",
+      },
+      {
+        id: 2,
+        question:
+          "Which of the following technologies have unified and has resulted in the evolution of IoT?",
+        options: [
+          "Low-power embedded systems",
+          "Cloud Computing",
+          "Machine Learning",
+          "All of these",
+        ],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 3,
+        question: "Which of the following are the enablers of IoT?",
+        options: ["RFID", "Nanotechnology", "Sensors", "All of these"],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 4,
+        question: "Which of the following is/are a function of an IoT Gateway?",
+        options: [
+          "Connects the IoT LAN to a WAN",
+          "Can implement several LAN and WAN",
+          "Forwards packets between LAN and WAN on the IP layer",
+          "All of these",
+        ],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 5,
+        question:
+          'State whether the following statement is True or False. Statement: "The same address of an IoT device may be repeated in the domain of another gateway. The gateway has a unique network prefix, which can be used to identify them globally."',
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 6,
+        question:
+          "In __________, a node/network is connected to multiple networks for improved reliability.",
+        options: [
+          "Transparent roaming",
+          "Multi-homing",
+          "None of these",
+          "Both (a) and (b)",
+        ],
+        correctAnswer: "Multi-homing",
+      },
+      {
+        id: 7,
+        question:
+          "The IPv4 notation uses __________ number of bits to represent an address.",
+        options: ["33", "32", "Both (a) and (b)", "None of these"],
+        correctAnswer: "32",
+      },
+      {
+        id: 8,
+        question:
+          'The "Source Address" field in the IPv6 header is of __________ bits in length.',
+        options: ["32", "64", "128", "None of these"],
+        correctAnswer: "128",
+      },
+      {
+        id: 9,
+        question:
+          "A device which detects or measures a physical property and records, indicates, or otherwise responds to it is called __________?",
+        options: ["A sensor", "An actuator", "A Transducer", "A processor"],
+        correctAnswer: "A sensor",
+      },
+      {
+        id: 10,
+        question: "A microphone is an example of an __________",
+        options: [
+          "Input device and actuator",
+          "Only actuator",
+          "Only Transducer",
+          "Input device and transducer",
+        ],
+        correctAnswer: "Input device and transducer",
+      },
+      {
+        id: 11,
+        question:
+          "State whether the following statement is True or False. Statement: A sensor is only sensitive to the measured property for which it has been made (e.g., A temperature sensor senses the ambient temperature of a room.)",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 12,
+        question:
+          "Based on the data type, sensors are classified as __________",
+        options: [
+          "Only scalar",
+          "Only vector",
+          "Scalar and Vector/Multimedia",
+          "None of these",
+        ],
+        correctAnswer: "Scalar and Vector/Multimedia",
+      },
+      {
+        id: 13,
+        question:
+          "State whether the following statement is True or False. Statement: The more the resolution of a sensor, the less accurate its precision.",
+        options: ["True", "False"],
+        correctAnswer: "False",
+      },
+      {
+        id: 14,
+        question:
+          "The sensitivity of a sensor under real conditions may differ from the value specified. This is called __________",
+        options: [
+          "Physical error",
+          "Sensitivity error",
+          "Rounding error",
+          "None of these",
+        ],
+        correctAnswer: "Sensitivity error",
+      },
+      {
+        id: 15,
+        question: "A sensor node is made up of which of the following?",
+        options: [
+          "Sensor/Sensing units",
+          "A processing unit",
+          "A power unit",
+          "All of these",
+        ],
+        correctAnswer: "All of these",
+      },
     ],
   },
 
@@ -203,7 +343,8 @@ export const data = [
       },
       {
         id: 8,
-        question: "The Publish/Subscribe architecture in MQTT is driven.",
+        question:
+          "The Publish/Subscribe architecture in MQTT is __________ driven.",
         options: ["Event", "Pulse", "Sound", "None of these"],
         correctAnswer: "Event",
       },
@@ -267,6 +408,137 @@ export const data = [
           "Neither (a) nor (b)",
         ],
         correctAnswer: "Neither (a) nor (b)",
+      },
+      {
+        id: 1,
+        question: "The full form of MQTT is",
+        options: [
+          "Message Query Telemetry Transport",
+          "Message Queue Telemetry Transport",
+          "Message Queue Telemedicine Transport",
+          "None of these",
+        ],
+        correctAnswer: "Message Queue Telemetry Transport",
+      },
+      {
+        id: 2,
+        question:
+          "In MQTT, a __________ controls the publish-subscribe messaging pattern.",
+        options: [
+          "Message Broker",
+          "Publishers",
+          "Subscribers",
+          "All of these",
+        ],
+        correctAnswer: "Message Broker",
+      },
+      {
+        id: 3,
+        question: "Which of the following is NOT a Data Protocol in IoT?",
+        options: ["MQTT", "CoAP", "Websocket", "None of these"],
+        correctAnswer: "None of these",
+      },
+      {
+        id: 4,
+        question: "In MQTT for IoT, the Publishers are __________",
+        options: [
+          "Lightweight sensors",
+          "Actuators",
+          "Processing units",
+          "None of these",
+        ],
+        correctAnswer: "Lightweight sensors",
+      },
+      {
+        id: 5,
+        question: "Which of the following is NOT a method in MQTT?",
+        options: ["Break", "Connect", "Disconnect", "None of these"],
+        correctAnswer: "Break",
+      },
+      {
+        id: 6,
+        question:
+          "Which of the following protocols in IoT have been designed for Machine to Machine (M2M) applications such as smart energy and building automation?",
+        options: ["MQTT", "CoAP", "Websocket", "All of these"],
+        correctAnswer: "CoAP",
+      },
+      {
+        id: 7,
+        question:
+          "Similar to HTTP, CoAP utilizes which of the following for operation?",
+        options: ["GET", "PUT", "PUSH", "All of these"],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 8,
+        question: "What is the full form of XMPP in IoT?",
+        options: [
+          "Extensible Markup Page Processing",
+          "Extensible Messaging and Presence Protocol",
+          "Both (a) and (b)",
+          "Neither (a) nor (b)",
+        ],
+        correctAnswer: "Extensible Messaging and Presence Protocol",
+      },
+      {
+        id: 9,
+        question:
+          "State whether the following statement if True or False. Statement: XMPP is an open standard protocol.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 10,
+        question: "What is the full form AMQP in context of IoT protocol?",
+        options: [
+          "Another Message Queuing Protocol",
+          "Anchored Message Queuing Protocol",
+          "Advanced Message Queuing Protocol",
+          "None of these",
+        ],
+        correctAnswer: "Advanced Message Queuing Protocol",
+      },
+      {
+        id: 11,
+        question: "What is the basic unit of data in the AMQP protocol?",
+        options: ["Chunk", "Byte", "Frame", "None of these"],
+        correctAnswer: "Frame",
+      },
+      {
+        id: 12,
+        question: "Which of the following is/are exchange types in AMQP?",
+        options: ["Direct", "Fan-out", "Topic", "All of these"],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 13,
+        question:
+          "IoT networks can be classified in which of the following type/types?",
+        options: [
+          "Non-Beacon Enabled",
+          "Beacon Enabled",
+          "None of these",
+          "Both (a) and (b)",
+        ],
+        correctAnswer: "Both (a) and (b)",
+      },
+      {
+        id: 14,
+        question: "The OSI model has __________ layers.",
+        options: ["6", "7", "4", "8"],
+        correctAnswer: "7",
+      },
+      {
+        id: 15,
+        question:
+          "The “Destination Address” in the IPv4 packet represents which of the following?",
+        options: [
+          "The destination node address of the packet",
+          "The intermediate hop in the network",
+          "Both (a) and (b)",
+          "None of these",
+        ],
+        correctAnswer: "The destination node address of the packet",
       },
     ],
   },
@@ -403,6 +675,121 @@ export const data = [
         options: ["260 bps", "260 kbps", "260 Mbps", "None of these"],
         correctAnswer: "None of these",
         explanation: "It uses 250 kbps.",
+      },
+      {
+        id: 1,
+        question:
+          "State whether the following statement is true or false. Statement: There is no network layer in Wired HART",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 2,
+        question: "HART operates only in __________ GHz ISM band.",
+        options: ["2.4", "4.8", "4.9", "4.4"],
+        correctAnswer: "2.4",
+      },
+      {
+        id: 3,
+        question:
+          "Super-frames in HART consist of grouped ___________ wide timeslots.",
+        options: ["10ms", "20ms", "55ms", "None of these"],
+        correctAnswer: "10ms",
+      },
+      {
+        id: 4,
+        question:
+          "The process of identifying channels consistently affected by interference and removing them from use is known as _________________.",
+        options: [
+          "Channel hopping",
+          "Channel aggregating",
+          "Frequency aggregating",
+          "Channel blacklisting",
+        ],
+        correctAnswer: "Channel blacklisting",
+      },
+      {
+        id: 5,
+        question:
+          "State whether the following statement is True or False Statement: Each node is supervised by the application manager and it guides them on when and where to send packets.",
+        options: ["True", "False"],
+        correctAnswer: "False",
+      },
+      {
+        id: 6,
+        question: "FeliCa is commonly found in which country?",
+        options: ["Japan", "India", "USA", "None of these"],
+        correctAnswer: "Japan",
+      },
+      {
+        id: 7,
+        question:
+          "State whether the following state is true or false. Statement: NFC tags found in supermarket products are examples of passive NFC.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 8,
+        question: "Active NFC devices are able to ___________________?",
+        options: [
+          "transmit information",
+          "collect information",
+          "Both (a) and (b)",
+          "None of these",
+        ],
+        correctAnswer: "Both (a) and (b)",
+      },
+      {
+        id: 9,
+        question:
+          "A __________ in NFC emits a small electric current which creates a magnetic field that in turn bridges the physical space between the devices.",
+        options: ["reader", "writer", "destroyer", "None of these"],
+        correctAnswer: "reader",
+      },
+      {
+        id: 10,
+        question: "Bluetooth technology is based on _________________.",
+        options: ["WiFi", "LoRa", "Ad-hoc technology", "None of these"],
+        correctAnswer: "Ad-hoc technology",
+      },
+      {
+        id: 11,
+        question:
+          "Bluetooth technology operates in the unlicensed industrial, scientific and medical (ISM) band at _________ to ________ GHz.",
+        options: ["3.2, 5.6", "2.4, 2.485", "5.0, 5.89", "None of these"],
+        correctAnswer: "2.4,2.485",
+      },
+      {
+        id: 12,
+        question:
+          "Z-wave operates at ________ MHz in the US and ________ MHz in Europe.",
+        options: [
+          "1008, 989",
+          "908.42, 868.42",
+          "767.56, 855.28",
+          "None of these",
+        ],
+        correctAnswer: "908.42, 868.42",
+      },
+      {
+        id: 13,
+        question:
+          "State whether the following statement is true or false. Statement: Sensor nodes have limited battery life.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 14,
+        question:
+          "State whether the following statement is true or false. Statement: The Link Manager Protocol in Bluetooth manages the establishment, authentication, link configuration.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 15,
+        question: "Zigbee commonly uses __________data rate.",
+        options: ["250 kbps", "250 Mbps", "260 kbps", "260 Mbps"],
+        correctAnswer: "250 kbps",
       },
     ],
   },
@@ -559,6 +946,154 @@ export const data = [
         options: ["True", "False"],
         correctAnswer: "True",
         explanation: "M2M platforms process device-collected data.",
+      },
+      {
+        id: 1,
+        question:
+          "State whether the following statement is true or false. Statement: Coverage in WSN is defined as the area-of-interest that is covered satisfactorily.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 2,
+        question: "If transmission range >= 2* sensing range, ___________",
+        options: [
+          "Coverage implies connectivity",
+          "Coverage implies greater coverage",
+          "Both (a) and (b)",
+          "None of these",
+        ],
+        correctAnswer: "Coverage implies connectivity",
+      },
+      {
+        id: 3,
+        question:
+          "Forest fire monitoring in WSN is an example of which type of reporting?",
+        options: ["Event driven", "On-demand", "Scattered", "None of these"],
+        correctAnswer: "Event driven",
+      },
+      {
+        id: 4,
+        question:
+          "State whether the following statement is true or false. Statement: Objective of coverage in WSN is to use minimum number of sensors and maximize network lifetime.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 5,
+        question:
+          "What is the full form of AUV in the context of mobile wireless sensor networks?",
+        options: [
+          "Aerial and Underwater Vehicle",
+          "Ambient and Underprivileged Vehicle",
+          "Autonomous Underwater Vehicle",
+          "None of these",
+        ],
+        correctAnswer: "Autonomous Underwater Vehicle",
+      },
+      {
+        id: 6,
+        question:
+          "In mobile wireless sensor networks, the sensor nodes are capable of _____________ and measuring the condition of their surrounding environments.",
+        options: [
+          "collaborating with one another",
+          "destroying one another",
+          "Both (a) and (b)",
+          "None of these",
+        ],
+        correctAnswer: "collaborating with one another",
+      },
+      {
+        id: 7,
+        question:
+          "State whether the following statement is true or false. Statement: In mobile sensor networks, the sensor nodes come in close proximity of sink and deliver the data.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 8,
+        question:
+          "Which of the following is/are a challenge/challenges in Human-centric Sensing?",
+        options: [
+          "Energy of devices",
+          "Participant selection",
+          "Both (a) and (b)",
+          "None of these",
+        ],
+        correctAnswer: "Both (a) and (b)",
+      },
+      {
+        id: 9,
+        question:
+          "Which of the following is/are a feature/features of UAV networks?",
+        options: [
+          "Mesh or star networks",
+          "Multi-tasking",
+          "Large coverage area",
+          "All of these",
+        ],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 10,
+        question:
+          "State whether the following statement is true or false. Statement: Frequently change in network topology is a benefit of UAV networks.",
+        options: ["False", "True"],
+        correctAnswer: "False",
+      },
+      {
+        id: 11,
+        question:
+          "Which of the following is NOT a feature of multi-UAV system?",
+        options: [
+          "Low failures",
+          "High scalability",
+          "Low survivability",
+          "High cost",
+        ],
+        correctAnswer: "Low survivability",
+      },
+      {
+        id: 12,
+        question:
+          "State whether the following statement is true or false. Statement: M2M communications are free of any human intervention.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 13,
+        question: "Which of the following is NOT an M2M node type?",
+        options: [
+          "Secure End Node",
+          "High End Node",
+          "Low End Mode",
+          "Mid End Node",
+        ],
+        correctAnswer: "Secure End Node",
+      },
+      {
+        id: 14,
+        question:
+          "What is the full form of M2SP in the context of Machine-to-Machine Communication?",
+        options: [
+          "M2M Service Platform",
+          "M2M Session Packet",
+          "M2M Secure Packaging",
+          "None of these",
+        ],
+        correctAnswer: "M2M Service Platform",
+      },
+      {
+        id: 15,
+        question:
+          "The ______________ provides integrated services based on device collected data-sets.",
+        options: [
+          "M2M Application Platform",
+          "M2M Service Platform",
+          "M2M Hardware Platform",
+          "None of these",
+        ],
+        correctAnswer: "M2M Application Platform",
       },
     ],
   },
@@ -725,6 +1260,153 @@ export const data = [
         ],
         correctAnswer: "ServoDemo.write()",
         explanation: "ServoDemo.write() sets the angle for the servo motor.",
+      },
+      {
+        id: 1,
+        question:
+          "Which of the following is/are current challenge/challenges in IoT?",
+        options: [
+          "Large scale of co-operation",
+          "Global heterogeneity",
+          "Unknown IoT device configuration",
+          "All of these",
+        ],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 2,
+        question:
+          "When two IoT devices wish to communicate, semantic conflict in such a scenario in IoT interoperability refers to____________________.",
+        options: [
+          "Two devices built by the same manufacturer",
+          "Two devices having different processing and business logic",
+          "Two devices sensing the same physical parameter",
+          "Two devices having different deployment location",
+        ],
+        correctAnswer:
+          "Two devices having different processing and business logic",
+      },
+      {
+        id: 3,
+        question:
+          "Which of the following issues needs to be addressed while solving user interoperability?",
+        options: [
+          "Device characterization and identification",
+          "Syntactic interoperability",
+          "Both (a) and (b)",
+          "None of these",
+        ],
+        correctAnswer: "Both (a) and (b)",
+      },
+      {
+        id: 4,
+        question:
+          "State whether the following statement is true or false Statement: UMB core interoperability component is responsible for converting physical devices into virtually abstracted ones.",
+        options: ["False", "True"],
+        correctAnswer: "False",
+      },
+      {
+        id: 5,
+        question: "What is the full form of UMB in IoT interoperability?",
+        options: [
+          "Universal Middleware Bridge",
+          "Universal Main Bridge",
+          "Universal Main Bracket",
+          "None of these",
+        ],
+        correctAnswer: "Universal Middleware Bridge",
+      },
+      {
+        id: 6,
+        question:
+          "Which of the following is NOT a function available in the Servo library for Arduino ?",
+        options: ["kill()", "destroy()", "burn()", "All of these"],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 7,
+        question: "Arduino UNO Board is open source?",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 8,
+        question: "Arduino Uno board accepts which type of input/inputs?",
+        options: ["Analog", "Digital", "Both (a) and (b)", "None of these"],
+        correctAnswer: "Both (a) and (b)",
+      },
+      {
+        id: 9,
+        question:
+          "Arduino boards are based on which of the following microcontroller/microcontrollers.",
+        options: [
+          "ATMEGA328",
+          "ATMEGA32u4",
+          "Both (a) and (b)",
+          "None of these",
+        ],
+        correctAnswer: "Both (a) and (b)",
+      },
+      {
+        id: 10,
+        question: "What is the clock speed of the Arduino Uno board?",
+        options: ["16MHz", "17MHz", "8MHz", "None of these"],
+        correctAnswer: "16MHz",
+      },
+      {
+        id: 11,
+        question:
+          "Consider the following Arduino sketch.\nWhat must be inserted in the place of ‘??’ within the second pinMode() function in void setup()?",
+        options: [
+          "INPUT",
+          "OUTPUT",
+          "None of these",
+          "Anyone of these is okay",
+        ],
+        correctAnswer: "OUTPUT",
+      },
+      {
+        id: 12,
+        question:
+          "The “Verify” option in the Arduino IDE checks the code for ___________.",
+        options: [
+          "Compilation errors",
+          "Improper hardware connection",
+          "Both (a) and (b)",
+          "None of these",
+        ],
+        correctAnswer: "Compilation errors",
+      },
+      {
+        id: 13,
+        question:
+          "How many pins does the DHT Digital Humidity and Temperature sensor have?",
+        options: ["2", "3", "4", "None of these"],
+        correctAnswer: "4",
+      },
+      {
+        id: 14,
+        question:
+          "What is the function of the delay() function in an Arduino program?",
+        options: [
+          "Initializes a sensor",
+          "Introduces a delay for the specified time",
+          "Stores the sensor value",
+          "None of the above",
+        ],
+        correctAnswer: "Introduces a delay for the specified time",
+      },
+      {
+        id: 15,
+        question: "What does the following code snippet do?\nServo myservo;",
+        options: [
+          "Creates a variable to store the sensor value",
+          "Instructs the sensor to sense data",
+          "Creates an instance of servo to use it in the Arduino sketch",
+          "None of these",
+        ],
+        correctAnswer:
+          "Creates an instance of servo to use it in the Arduino sketch",
       },
     ],
   },
@@ -911,6 +1593,121 @@ export const data = [
           "When the surrounding temperature exceeds a predefined threshold [cite: 41]",
         explanation:
           "In a temperature-controlled fan system using a relay, the fan should turn on when the surrounding temperature exceeds a predefined threshold. [cite: 41]",
+      },
+      {
+        id: 1,
+        question: "Python can only be used to build small applications.",
+        options: ["True", "False"],
+        correctAnswer: "False",
+      },
+      {
+        id: 2,
+        question: "Which of the following is NOT a Python IDE?",
+        options: ["Spyder", "PyCharm", "Both (a) and (b)", "None of these"],
+        correctAnswer: "None of these",
+      },
+      {
+        id: 3,
+        question:
+          "State whether the following statement is true or false. Statement: To indicate different blocks of code, python follows rigid indention.",
+        options: ["False", "True"],
+        correctAnswer: "True",
+      },
+      {
+        id: 4,
+        question: "Which of the following is not a data-type in Python?",
+        options: ["List", "Branch", "Tuple", "None of these"],
+        correctAnswer: "Branch",
+      },
+      {
+        id: 5,
+        question:
+          "State whether the following statement is true or false. Statement: Python allows us to read and write files.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 6,
+        question: "Which of the following is NOT a mode to open a file?",
+        options: ["Read mode", "Write mode", "Append mode", "None of these"],
+        correctAnswer: "None of these",
+      },
+      {
+        id: 7,
+        question:
+          "State whether the following command to install the PIL library in Linux is correct or not. sudo pip install pillow",
+        options: ["Correct", "Incorrect"],
+        correctAnswer: "Correct",
+      },
+      {
+        id: 8,
+        question:
+          "State whether the following statement is correct for creating a socket ‘s’ in python. s = socket.socket(socket_family, socket_type, protocol=0)",
+        options: ["Correct", "Incorrect"],
+        correctAnswer: "Correct",
+      },
+      {
+        id: 9,
+        question: "What is a Raspberry Pi?",
+        options: [
+          "A computer on your palm",
+          "Single board computer",
+          "Low cost",
+          "All of these",
+        ],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 10,
+        question:
+          "Which of the following are required for a basic set up of Raspberry Pi?",
+        options: ["Monitor", "Keyboard", "Mouse", "All of these"],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 11,
+        question:
+          "Which of the following keyboard key combination writes (i.e saves) the code to the file in nano editor ?",
+        options: ["Ctrl+O", "Ctrl+X", "Both (a) and (b)", "None of these"],
+        correctAnswer: "Ctrl+O",
+      },
+      {
+        id: 12,
+        question: "A relay module for Raspberry Pi has how many terminals ?",
+        options: ["3", "2", "4", "5"],
+        correctAnswer: "3",
+      },
+      {
+        id: 13,
+        question:
+          "State whether the following statement is true or false. Statement: Adafruit provides a library to work with the DHT22 sensor.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 14,
+        question:
+          "What is the function of the close() function in python programming while handling files.",
+        options: [
+          "This function does not exist in python",
+          "It closes the current connection to the file and ensures that the file is free to use for other resources",
+          "None of these",
+          "Both (a) and (b)",
+        ],
+        correctAnswer:
+          "It closes the current connection to the file and ensures that the file is free to use for other resources",
+      },
+      {
+        id: 15,
+        question: "Where is the Raspbian image found?",
+        options: [
+          "It is not available on the Internet",
+          "It is available as image file from the Raspberry Pi official website",
+          "It can only be purchased from offline vendor",
+          "None of these",
+        ],
+        correctAnswer:
+          "It is available as image file from the Raspberry Pi official website",
       },
     ],
   },
@@ -1106,182 +1903,129 @@ export const data = [
         explanation:
           "SDN integration with IoT is highly recommended for efficient delivery of services. [cite: 45]",
       },
-    ],
-  },
-
-  {
-    id: "quiz8",
-    title: "Assignment-Week 8",
-    questions: [
       {
         id: 1,
-        question: "What is Sensor Openflow?",
-        options: [
-          "A traditional routing protocol",
-          "A queue management protocol",
-          "An SDN protocol tailored for IoT devices",
-          "A physical connectivity protocol.",
-        ],
-        correctAnswer: "An SDN protocol tailored for IoT devices",
-        explanation:
-          "Sensor Openflow is an SDN protocol tailored for IoT devices[cite: 3].",
+        question:
+          "DHT Sensor refers to Digital Humidity and Temperature Sensor.",
+        options: ["True", "False"],
+        correctAnswer: "True",
       },
       {
         id: 2,
         question:
-          "With respect to Mobi-Flow, how does Mobi-Flow fare in comparison to Conventional networking in terms of message overhead?",
-        options: [
-          "Mobi-Flow > Conventional",
-          "Mobi-Flow < Conventional",
-          "Mobi-Flow = Conventional",
-          "None of the given",
-        ],
-        correctAnswer: "Mobi-Flow < Conventional",
-        explanation:
-          "Mobi-Flow has less message overhead compared to conventional networking[cite: 6].",
+          "Fill in the blanks. __________ is a python library used for plotting the data in 2D.",
+        options: ["List", "Numpy", "Pandas", "Matplotlib"],
+        correctAnswer: "Matplotlib",
       },
       {
         id: 3,
-        question: "Virtual Machines came before Cloud Computing.",
-        options: ["True", "False"],
-        correctAnswer: "True",
-        explanation:
-          "Virtual Machines existed before the advent of Cloud Computing[cite: 7].",
+        question:
+          "Fill in the blanks. __________ makes a scatter plot of the given points.",
+        options: ["ion()", "figure()", "Scatter()", "None of these"],
+        correctAnswer: "Scatter()",
       },
       {
         id: 4,
-        question:
-          "Private cloud services cannot provide Software-as-a-Service (SaaS).",
-        options: ["True", "False"],
-        correctAnswer: "False",
-        explanation:
-          "Any cloud deployment model, including private cloud, can provide any cloud service model like SaaS[cite: 9].",
+        question: "What are the two main challenges of SDN?",
+        options: [
+          "File placement and Node placement",
+          "Rule placement and Controller placement",
+          "All of these",
+          "None of these",
+        ],
+        correctAnswer: "Rule placement and Controller placement",
       },
       {
         id: 5,
-        question:
-          "Which among the following is a solution for mobility-aware flow rule placement in SDIoT?",
-        options: ["Mobility-Flow", "Mobile-Flow", "Mobi-Flow", "M-Flow"],
-        correctAnswer: "Mobi-Flow",
-        explanation:
-          "Mobi-Flow has been proposed to provide a solution for mobility-aware flow rule placement[cite: 12].",
+        question: "In soft-timeout, all the rules are deleted from the switch.",
+        options: ["True", "False"],
+        correctAnswer: "False",
       },
       {
         id: 6,
-        question:
-          "An organization A wants to deploy a cloud infrastructure, whereby it wants to push majority of the data to a cloud whose servers can be situated anywhere within the globe, but it wants certain private data to be pushed only to cloud servers that are present on-premise and are accessible by only authenticated members of the organization. In this context which among the following deployment model should be used?",
+        question: "Which of the following is a component of SDN?",
         options: [
-          "Private Cloud",
-          "Public Cloud",
-          "Hybrid Cloud",
-          "Any of these",
+          "Hardware switches",
+          "Flow-rules",
+          "None of these",
+          "All of these",
         ],
-        correctAnswer: "Hybrid Cloud",
-        explanation:
-          "A Hybrid Cloud deployment model should be used as it supports both public and private cloud features[cite: 15, 16].",
+        correctAnswer: "All of these",
       },
       {
         id: 7,
-        question:
-          "Which among the following is the most on-premise cloud deployment model?",
-        options: ["Private Cloud", "Public cloud", "IaaS", "PaaS"],
-        correctAnswer: "Private Cloud",
-        explanation:
-          "Private Cloud is the most on-premise cloud deployment model[cite: 18].",
+        question: "What is introduced if a controller is down in SDN?",
+        options: [
+          "Backup controller",
+          "Intro controller",
+          "All of these",
+          "None of these",
+        ],
+        correctAnswer: "Backup Controller",
       },
       {
         id: 8,
         question:
-          "Which of the following type of client requires constant communication/connection with the cloud server?",
-        options: [
-          "Thin client",
-          "Thick client",
-          "Both thin and thick clients",
-          "None of these",
-        ],
-        correctAnswer: "Thin client",
-        explanation:
-          "A thin client acts as a simple terminal and requires constant communication with the servers[cite: 21, 22].",
+          "Southbound API is used to communicate between control layer and application layer.",
+        options: ["True", "False"],
+        correctAnswer: "False",
       },
       {
         id: 9,
-        question: "What does 'CIA' in cloud data security stand for?",
-        options: [
-          "Confidentiality, Integrity, Availability",
-          "Confidentiality, Inheritance, Automation",
-          "Congestion, Integrity, Authentication",
-          "Criticality, Integrity, Accountability",
-        ],
-        correctAnswer: "Confidentiality, Integrity, Availability",
-        explanation:
-          "'CIA' stands for 'Confidentiality, Integrity and Availability'[cite: 25].",
+        question: "SDN is OpenFlow.",
+        options: ["True", "False"],
+        correctAnswer: "False",
       },
       {
         id: 10,
         question:
-          "When you are accessing Spotify online for listening to music from your browser without specifically installing them, which among the following cloud service models is the most appropriate one that you are using.",
-        options: ["SaaS", "PaaS", "IaaS", "DaaS"],
-        correctAnswer: "SaaS",
-        explanation:
-          "Accessing software like Spotify over the network without installation is an example of Software-as-a-Service (SaaS)[cite: 29, 30].",
+          "Which of the following forwards the sensed data based on the ID of the source node?",
+        options: [
+          "Value-centric data forwarding",
+          "ID-centric data forwarding",
+          "All of these",
+          "None of these",
+        ],
+        correctAnswer: "ID-centric data forwarding",
       },
       {
         id: 11,
         question:
-          "With respect to Cloud Computing security, which of the following are necessary",
-        options: [
-          "Network Level Security but not Host Level Security",
-          "Application Level Security but not Host Level Security",
-          "Host Level Security but not Network Level Security",
-          "All of Network, Host and Application Level Security.",
-        ],
-        correctAnswer: "All of Network, Host and Application Level Security",
-        explanation:
-          "Network Level, Host Level, and Application Level Security are all necessary for Cloud Computing security[cite: 33].",
+          "Does integrating SDN in IoT provide intelligent routing decisions?",
+        options: ["Yes", "No"],
+        correctAnswer: "Yes",
       },
       {
         id: 12,
-        question:
-          "Data security and client authentication is an issue in which of the following cloud service models?",
-        options: ["SaaS", "SaaS and PaaS", "IaaS", "All of them"],
-        correctAnswer: "All of them",
-        explanation:
-          "Security, including data security and client authentication, is a pertinent issue in all cloud service models (SaaS, PaaS, IaaS)[cite: 35, 36].",
+        question: "Are Indigo and LINC Open source?",
+        options: ["Yes", "No"],
+        correctAnswer: "Yes",
       },
       {
         id: 13,
-        question: "What is the role of a Hypervisor (most probable answer)?",
+        question:
+          "Which of the following is used to communicate among multiple controllers in the control layer?",
         options: [
-          "To facilitate installation of a router",
-          "To provide a platform for executing virtual machines",
-          "To facilitate sensor fabrication",
-          "To communicate between switches themselves.",
+          "East-Westbound APIs",
+          "Northbound APIs",
+          "All of these",
+          "None of these",
         ],
-        correctAnswer: "To provide a platform for executing virtual machines",
-        explanation:
-          "A hypervisor's role is to provide a platform for executing virtual machines[cite: 39, 40].",
+        correctAnswer: "East-Westbound APIs",
       },
       {
         id: 14,
-        question: "Which of the following is a limitation of SaaS?",
-        options: [
-          "Remote software execution",
-          "Platform independence",
-          "Centralized control",
-          "None of these.",
-        ],
-        correctAnswer: "Centralized control",
-        explanation:
-          "Centralized control can be a limitation of SaaS[cite: 41].",
+        question:
+          "How many requests can a controller handle through a single thread?",
+        options: ["200/sec", "50/sec", "None of these", "All of these"],
+        correctAnswer: "200/sec",
       },
       {
         id: 15,
         question:
-          "Fill in the blank. ______ means independent of device or location.",
-        options: ["Scalable", "Reliability", "Agile", "Ubiquitous"],
-        correctAnswer: "Ubiquitous",
-        explanation:
-          "Ubiquitous means independent of device or location[cite: 43].",
+          "Size of the ternary content-addressable memory is not limited at the switches.",
+        options: ["True", "False"],
+        correctAnswer: "False",
       },
     ],
   },
@@ -1302,7 +2046,7 @@ export const data = [
         ],
         correctAnswer: "All of the above",
         explanation:
-          "The advantages of cloud computing include Elasticity, Pay-per-use and Self-Service. [cite: 3]",
+          "The advantages of cloud computing include Elasticity, Pay-per-use and Self-Service.",
       },
       {
         id: 2,
@@ -1316,7 +2060,7 @@ export const data = [
         ],
         correctAnswer: "Cloud and devices",
         explanation:
-          "Fog computing is an intermediate layer between Cloud and devices. [cite: 7]",
+          "Fog computing is an intermediate layer between Cloud and devices.",
       },
       {
         id: 3,
@@ -1330,7 +2074,7 @@ export const data = [
         ],
         correctAnswer: "Sensor-Cloud Service Provider",
         explanation:
-          "Sensor-Cloud Service Provider plays the managerial role in sensor-cloud architecture. [cite: 9]",
+          "Sensor-Cloud Service Provider plays the managerial role in sensor-cloud architecture.",
       },
       {
         id: 4,
@@ -1338,14 +2082,14 @@ export const data = [
         options: ["Suse", "Nova", "Swift", "All of these"],
         correctAnswer: "Suse",
         explanation:
-          "Nova and Swift are two of the many components of OpenStack. Suse is a Linux distribution, not an OpenStack component. [cite: 12]",
+          "Nova and Swift are two of the many components of OpenStack. Suse is a Linux distribution, not an OpenStack component.",
       },
       {
         id: 5,
         question: "Who coined the term Fog computing?",
         options: ["IBM", "CISCO", "All of these", "None of these"],
         correctAnswer: "CISCO",
-        explanation: "CISCO coined the term Fog computing. [cite: 13]",
+        explanation: "CISCO coined the term Fog computing.",
       },
       {
         id: 6,
@@ -1359,7 +2103,7 @@ export const data = [
         ],
         correctAnswer: "Hardware virtualization",
         explanation:
-          "The concept of hardware virtualization enables physical hardware to be shared among multiple entities. [cite: 16]",
+          "The concept of hardware virtualization enables physical hardware to be shared among multiple entities.",
       },
       {
         id: 7,
@@ -1368,7 +2112,7 @@ export const data = [
         options: ["True", "False"],
         correctAnswer: "True",
         explanation:
-          "Openstack is a free open source software for cloud framework simulation and experimentation with various cloud applications. [cite: 18]",
+          "Openstack is a free open source software for cloud framework simulation and experimentation with various cloud applications.",
       },
       {
         id: 8,
@@ -1377,7 +2121,7 @@ export const data = [
         options: ["True", "False"],
         correctAnswer: "False",
         explanation:
-          "IoT data can be classified into time sensitive data, less time sensitive data and data not sensitive to time. Hence time sensitivity plays a big role in IoT data classification. [cite: 22, 23]",
+          "IoT data can be classified into time sensitive data, less time sensitive data and data not sensitive to time. Hence time sensitivity plays a big role in IoT data classification.",
       },
       {
         id: 9,
@@ -1385,7 +2129,7 @@ export const data = [
         options: ["Horizon", "Heat", "Stellar", "Neutron"],
         correctAnswer: "Stellar",
         explanation:
-          "Horizon, Heat, and Neutron are components of OpenStack. Stellar is not listed as a core component. [cite: 25, 26]",
+          "Horizon, Heat, and Neutron are components of OpenStack. Stellar is not listed as a core component.",
       },
       {
         id: 10,
@@ -1399,7 +2143,7 @@ export const data = [
         ],
         correctAnswer: "Sensor virtualization",
         explanation:
-          "Sensor virtualization is the principal feature of sensor clouds and their utility. [cite: 29]",
+          "Sensor virtualization is the principal feature of sensor clouds and their utility.",
       },
       {
         id: 11,
@@ -1408,7 +2152,7 @@ export const data = [
         options: ["Logistics", "Pricing", "Caching", "Virtual sensor nodes"],
         correctAnswer: "Virtual sensor nodes",
         explanation:
-          "The optimal composition of Virtual sensor nodes is a management issue in sensor-cloud. [cite: 32]",
+          "The optimal composition of Virtual sensor nodes is a management issue in sensor-cloud.",
       },
       {
         id: 12,
@@ -1417,7 +2161,7 @@ export const data = [
         options: ["1", "4", "2", "3"],
         correctAnswer: "2",
         explanation:
-          "Internal Cache (IC) and External Cache (EC) are two different types of caching mechanisms used in sensor cloud. [cite: 34]",
+          "Internal Cache (IC) and External Cache (EC) are two different types of caching mechanisms used in sensor cloud.",
       },
       {
         id: 13,
@@ -1426,7 +2170,7 @@ export const data = [
         options: ["10s", "5s", "15s", "20s"],
         correctAnswer: "5s",
         explanation:
-          "Total time = (Transfer to cloud) + (Processing time) + (Transfer from cloud). 25s = 10s + x + 10s. Therefore, x = 25s - 20s = 5s. [cite: 40, 41, 42]",
+          "Total time = (Transfer to cloud) + (Processing time) + (Transfer from cloud). 25s = 10s + x + 10s. Therefore, x = 25s - 20s = 5s.",
       },
       {
         id: 14,
@@ -1439,7 +2183,7 @@ export const data = [
         ],
         correctAnswer: "Fog computing acts as a complement to cloud computing.",
         explanation:
-          "Fog computing and cloud computing are complementary technologies. Fog helps in bringing the cloud closer to the IoT devices. [cite: 47, 48]",
+          "Fog computing and cloud computing are complementary technologies. Fog helps in bringing the cloud closer to the IoT devices.",
       },
       {
         id: 15,
@@ -1448,7 +2192,143 @@ export const data = [
         options: ["Horizon", "Glance", "Neutron", "None of these"],
         correctAnswer: "Horizon",
         explanation:
-          "Horizon is the dashboard of OpenStack which provides the GUI and from where you can access other components. [cite: 52]",
+          "Horizon is the dashboard of OpenStack which provides the GUI and from where you can access other components.",
+      },
+      {
+        id: 1,
+        question:
+          "State whether the following statement is true or false. Statement: Cloud computing requires capital investment and highly skilled manpower.",
+        options: ["True", "False"],
+        correctAnswer: "False",
+      },
+      {
+        id: 2,
+        question: "Which of the following is a benefit of cloud computing?",
+        options: [
+          "Automatic software updates",
+          "Cost savings",
+          "Flexibility",
+          "All of these",
+        ],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 3,
+        question:
+          "Fill in the blank. _______ is the core component of the OpenStack cloud infrastructure.",
+        options: ["Nova", "Swift", "All of these", "None of these"],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 4,
+        question:
+          "Fill in the blank. In OpenStack dashboard ______ provides the graphical user interface and from here you can access all the other components.",
+        options: ["Glance", "Horizon", "Nova", "Swift"],
+        correctAnswer: "Horizon",
+      },
+      {
+        id: 5,
+        question:
+          "Sensor-cloud is built by the integration of sensors and cloud.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 6,
+        question:
+          "State whether the following statement is true or false. Statement: Temporal sensitivity of data does not play an important role in IoT.",
+        options: ["True", "False"],
+        correctAnswer: "False",
+      },
+      {
+        id: 7,
+        question:
+          "Fill in the blanks. _______ is a standard proposed by the OpenFog Consortium.",
+        options: [
+          "Fog Reference Architecture",
+          "Cloud Reference Architecture",
+          "All of these",
+          "None of these",
+        ],
+        correctAnswer: "Fog Reference Architecture",
+      },
+      {
+        id: 8,
+        question: "Which of the following is an issue in sensor cloud?",
+        options: [
+          "Caching",
+          "Security",
+          "Virtual sensor node composition",
+          "All of these",
+        ],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 9,
+        question:
+          "Fill in the blanks. Sensor-cloud service provider plays the _______ role in sensor-cloud architecture.",
+        options: ["Managerial", "All of these", "End-user", "None of these"],
+        correctAnswer: "Managerial",
+      },
+      {
+        id: 10,
+        question: "What are the types of cache in sensor-cloud?",
+        options: [
+          "Internal cache",
+          "External cache",
+          "All of these",
+          "None of these",
+        ],
+        correctAnswer: "All of these",
+      },
+      {
+        id: 11,
+        question: "How does Fog Computing facilitate IoT?",
+        options: [
+          "Reduces latency",
+          "Reduces network congestion",
+          "Both (a) and (b)",
+          "None of these",
+        ],
+        correctAnswer: "Both (a) and (b)",
+      },
+      {
+        id: 12,
+        question:
+          "How many different types of cache are there in sensor cloud?",
+        options: ["2", "4", "8", "None of these"],
+        correctAnswer: "2",
+      },
+      {
+        id: 13,
+        question:
+          "Cloud computing is a collection of computing nodes or servers connected to the Internet.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 14,
+        question:
+          "Fill in the blanks. ______ enables physical hardware to be shared among multiple entities.",
+        options: [
+          "Hardware virtualization",
+          "Software virtualization",
+          "All of these",
+          "None of these",
+        ],
+        correctAnswer: "Hardware virtualization",
+      },
+      {
+        id: 15,
+        question:
+          "Fill in the blanks. _______ is an intermediate layer between Cloud and devices.",
+        options: [
+          "Cloud Computing",
+          "Fog Computing",
+          "All of these",
+          "None of these",
+        ],
+        correctAnswer: "Fog Computing",
       },
     ],
   },
@@ -1633,6 +2513,161 @@ export const data = [
         correctAnswer: "True",
         explanation: "ICV cooperation enhances road safety. [Lecture 50@2:00]",
       },
+      {
+        id: 1,
+        question:
+          "Which among the following are key components of a holistic smart city environment?",
+        options: [
+          "Smart grids",
+          "Smart transportation",
+          "Smart buildings",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 2,
+        question:
+          "Which of the following is NOT a dimension of a smart city according to the smart city wheel?",
+        options: [
+          "Smart governance",
+          "Smart economy",
+          "Smart environment",
+          "Smart entertainment",
+        ],
+        correctAnswer: "Smart entertainment",
+      },
+      {
+        id: 3,
+        question:
+          "State whether the following statement is true or false. Statement: ICT tools are used to collect, analyze, and disseminate data for smart city applications.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 4,
+        question:
+          "Which of the following is a potential application of IoT in smart cities?",
+        options: [
+          "Waste management",
+          "Traffic management",
+          "Water management",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 5,
+        question:
+          "Multi-sensor data fusion can be used to improve the reliability and accuracy of sensor data in smart cities.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 6,
+        question: "Which of the following is a level of data fusion?",
+        options: [
+          "Level 0: Sub-object assessment",
+          "Level 1: Object assessment",
+          "Level 2: Situation assessment",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 7,
+        question:
+          "Which of the following is a mathematical method for data fusion?",
+        options: [
+          "Kalman filtering",
+          "Bayesian networks",
+          "Artificial Neural Networks (ANN)",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 8,
+        question: "In the context of smart homes, what does HAN stand for?",
+        options: [
+          "Home Area Network",
+          "Human Area Network",
+          "Hybrid Access Network",
+          "None of the above",
+        ],
+        correctAnswer: "Home Area Network",
+      },
+      {
+        id: 9,
+        question:
+          "Which of the following technologies can be used for communication in a HAN?",
+        options: ["Zigbee", "Z-Wave", "Bluetooth", "All of the above"],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 10,
+        question: "What does UPnP stand for in the context of smart homes?",
+        options: [
+          "Underlying Protocol for Networked Peripherals",
+          "Universal Plug and Play",
+          "Unified Power and Networking Protocol",
+          "None of the above",
+        ],
+        correctAnswer: "Universal Plug and Play",
+      },
+      {
+        id: 11,
+        question: "ICV refers to which of the following?",
+        options: [
+          "Intelligent Connected Vehicles",
+          "Inter-Car Communication for Vehicles",
+          "Integrated Control Systems for Vehicles",
+          "None of the above",
+        ],
+        correctAnswer: "Intelligent Connected Vehicles",
+      },
+      {
+        id: 12,
+        question:
+          "V2X communication enables vehicles to communicate with which of the following?",
+        options: [
+          "Other vehicles (V2V)",
+          "Infrastructure (V2I)",
+          "Pedestrians (V2P)",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 13,
+        question:
+          "State whether the following statement is true or false. Statement: VANETs are a type of mobile ad-hoc network (MANET).",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 14,
+        question: "Which of the following is a challenge in VANETs?",
+        options: [
+          "High mobility of nodes",
+          "Frequent changes in network topology",
+          "Ensuring data security and privacy",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 15,
+        question:
+          "CCN is a networking architecture that focuses on which of the following?",
+        options: [
+          "Content by name",
+          "Host by IP address",
+          "Service by port number",
+          "None of the above",
+        ],
+        correctAnswer: "Content by name",
+      },
     ],
   },
 
@@ -1816,9 +2851,161 @@ export const data = [
         explanation:
           "SQL is designed to manage structured data stored in relational databases.",
       },
+      {
+        id: 1,
+        question: "Which of the following is an advantage of Smart Grids?",
+        options: [
+          "Increased efficiency in energy distribution",
+          "Improved reliability of power supply",
+          "Integration of renewable energy sources",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 2,
+        question:
+          "Which of the following is a type of data analysis technique used in smart grids?",
+        options: [
+          "Predictive analysis",
+          "Descriptive analysis",
+          "Prescriptive analysis",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 3,
+        question:
+          "IIoT is the application of IoT in which of the following sectors?",
+        options: ["Healthcare", "Agriculture", "Industrial", "Smart Homes"],
+        correctAnswer: "Industrial",
+      },
+      {
+        id: 4,
+        question: "Which industrial revolution is associated with IIoT?",
+        options: ["1st", "2nd", "3rd", "4th"],
+        correctAnswer: "4th",
+      },
+      {
+        id: 5,
+        question: "Which of the following is a key characteristic of IIoT?",
+        options: [
+          "Interoperability",
+          "Real-time data processing",
+          "Machine-to-machine communication",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 6,
+        question:
+          "Which of the following is a benefit of implementing IIoT in manufacturing?",
+        options: [
+          "Improved productivity",
+          "Enhanced predictive maintenance",
+          "Optimized supply chain management",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 7,
+        question: "Which of the following is a challenge in implementing IIoT?",
+        options: [
+          "Security concerns",
+          "Integration with legacy systems",
+          "Lack of skilled workforce",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 8,
+        question: "Which of the following is a type of data generated in IIoT?",
+        options: [
+          "Sensor data",
+          "Machine data",
+          "Operational data",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 9,
+        question:
+          "Which of the following is a use case of IIoT in the oil and gas industry?",
+        options: [
+          "Remote monitoring of pipelines",
+          "Predictive maintenance of equipment",
+          "Optimized drilling operations",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 10,
+        question: "Which of the following is a key technology enabling IIoT?",
+        options: [
+          "Cloud computing",
+          "Big data analytics",
+          "Artificial intelligence",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 11,
+        question:
+          "State whether the following statement is true or false. Statement: IIoT can lead to increased efficiency and reduced costs in industrial operations.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 12,
+        question: "Which of the following is a security challenge in IIoT?",
+        options: [
+          "Cyberattacks",
+          "Data breaches",
+          "Physical tampering",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 13,
+        question:
+          "Which of the following is a networking technology used in IIoT?",
+        options: ["5G", "LoRaWAN", "MQTT", "All of the above"],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 14,
+        question:
+          "Which of the following is a platform used for developing IIoT applications?",
+        options: [
+          "AWS IoT",
+          "Microsoft Azure IoT",
+          "Google Cloud IoT",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 15,
+        question:
+          "Which of the following is a key benefit of predictive maintenance in IIoT?",
+        options: [
+          "Reduced downtime",
+          "Increased equipment lifespan",
+          "Optimized maintenance schedules",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
     ],
   },
-
   {
     id: "quiz12",
     title: "Assignment-Week 12",
@@ -1982,6 +3169,144 @@ export const data = [
         options: ["HC-SR04", "Gyroscope", "Accelerometer", "Monometer"],
         correctAnswer: "Gyroscope",
         explanation: "Gyroscope detects angular rotation. Lecture 60@3:06.",
+      },
+      {
+        id: 1,
+        question: "Quantitative analysis deals with numerical data.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 2,
+        question:
+          "Which of the following statistical measures is used to describe the central tendency of a dataset?",
+        options: ["Mean", "Median", "Mode", "All of the above"],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 3,
+        question: "Which of the following is a measure of dispersion?",
+        options: [
+          "Range",
+          "Variance",
+          "Standard deviation",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 4,
+        question: "ANOVA is used to compare the means of two or more groups.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 5,
+        question:
+          "Regression analysis is used to model the relationship between a dependent variable and one or more independent variables.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 6,
+        question:
+          "Which of the following is a logical layer in the AgriSens architecture?",
+        options: [
+          "Perception layer",
+          "Network layer",
+          "Application layer",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 7,
+        question: "AgriSens uses which of the following for data transmission?",
+        options: ["MQTT", "CoAP", "HTTP", "All of the above"],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 8,
+        question: "Which of the following sensors are used in AgriSens?",
+        options: [
+          "Soil moisture sensor",
+          "Temperature sensor",
+          "Humidity sensor",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 9,
+        question: "What does LPU stand for in IoT smart healthcare?",
+        options: [
+          "Local Processing Unit",
+          "Low Power Unit",
+          "Logical Processing Unit",
+          "None of the above",
+        ],
+        correctAnswer: "Local Processing Unit",
+      },
+      {
+        id: 10,
+        question:
+          "AmbuSense is an IoT-based system for monitoring patients in ambulances.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 11,
+        question: "Which of the following is a feature of AmbuSense?",
+        options: [
+          "Real-time patient monitoring",
+          "Data transmission to the hospital",
+          "Privacy-aware data handling",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 12,
+        question:
+          "Which of the following can be used for in-place processing of sensor data?",
+        options: [
+          "Microcontrollers",
+          "Edge devices",
+          "Both (a) and (b)",
+          "None of the above",
+        ],
+        correctAnswer: "Both (a) and (b)",
+      },
+      {
+        id: 13,
+        question:
+          "Which of the following is a type of sensor used in activity monitoring?",
+        options: [
+          "Accelerometer",
+          "Gyroscope",
+          "GPS sensor",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        id: 14,
+        question:
+          "Deep learning can be used for analyzing sensor data for activity recognition.",
+        options: ["True", "False"],
+        correctAnswer: "True",
+      },
+      {
+        id: 15,
+        question:
+          "Which of the following is an advantage of continuous activity monitoring?",
+        options: [
+          "Long-term behavior analysis",
+          "Early detection of health issues",
+          "Personalized feedback",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
       },
     ],
   },
