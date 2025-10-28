@@ -1,4 +1,4 @@
-import { ClerkProvider } from "@clerk/nextjs";
+
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import AppShell from "@/components/global/app-shell";

@@ -1,10 +1,14 @@
 import { configureStore } from "@reduxjs/toolkit";
-import subjectReducer from "./slices/subjectSlice";
+import projectReducer from "./slices/projectSlice";
 import notificationReducer from "./slices/notificationSlice";
+import productReducer from "./slices/productSlice";
+import categoryReducer from "./slices/categorySlice";
 
 export const store = configureStore({
   reducer: {
-    subject: subjectReducer,
+    project: projectReducer,
     notification: notificationReducer,
+    product: productReducer,
+    category: categoryReducer,
   },
 });

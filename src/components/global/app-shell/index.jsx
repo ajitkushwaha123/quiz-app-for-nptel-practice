@@ -1,12 +1,13 @@
 "use client";
 
-import React, { ReactNode } from "react";
+import React from "react";
 import { Provider } from "react-redux";
 import { ClerkProvider } from "@clerk/nextjs";
 import { AppSidebar } from "@/components/app-sidebar";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { store } from "@/store";
 import NotificationBar from "../notification-bar";
+import { SiteHeader } from "@/components/site-header";
 
 const AppShell = ({ children }) => {
   return (
@@ -19,12 +20,11 @@ const AppShell = ({ children }) => {
           }}
         >
           <div className="flex min-h-screen w-full">
-            {/* Sidebar */}
             <AppSidebar variant="inset" />
 
-            {/* Main content area */}
             <SidebarInset className="flex flex-1 flex-col min-w-0">
               <NotificationBar />
+              <SiteHeader />
               <main className="flex-1 min-w-0">{children}</main>
             </SidebarInset>
           </div>
